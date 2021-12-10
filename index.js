@@ -13,7 +13,7 @@ app.get('/hello/:name', (req, res) => {
 });
 
 app.get('/goodbye', (req, res) => {
-    res.write('Au revoir');
+    res.write(`Goodbye, ${req.params.name}`);
     res.end();
 })
 
