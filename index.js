@@ -13,7 +13,7 @@ app.get('/hello/:name', (req, res) => {
 });
 
 app.get('/goodbye', (req, res) => {
-    res.write('Goodbye');
+    res.write('Au revoir');
     res.end();
 })
 
